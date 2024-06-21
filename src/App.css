@@ -1,0 +1,40 @@
+div h1 {
+  padding: 30px;
+  text-align: center;
+  color:blueviolet;
+}
+
+.calculator {
+  width: 800px;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #d5d5d5;   
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.display {
+  padding: 40px;
+  height: 90px;
+  background-color: #726e6e;
+  color: #ffffff;
+  text-align: right;
+  border-radius: 5px;
+  box-shadow: #d5d5d5;
+  font-size: 2em;
+}
+
+.button {
+  width: 85px;
+  height: 50px;
+  font-size: 28px;
+  color: #ffffff;
+  transition: background-color 0.3s; 
+}
+.button.operation {
+  background-color: #ff9500; 
+}
+
+
